@@ -1,0 +1,25 @@
+# hexo-theme-cactus 独立主题配置
+# Hexo 5+ 支持通过 _config.<theme>.yml 覆盖主题默认配置（深合并到 themes/cactus/_config.yml）。
+# 说明：npm 上的 hexo-theme-cactus 包已于 2019 年取消发布，主题改为通过 git clone
+# 安装到 themes/cactus（见 README）。主题当前版本为 v3.0，字段以官方 _config.yml 为准。
+colorscheme: dark
+
+nav:
+  首页: /
+  文章: /archives/
+  分类: /categories/
+  标签: /tags/
+  关于: /about/
+
+# cactus v3.0 的 social_links 为对象数组（icon / link / 可选 label），非 map。
+social_links:
+  - icon: github
+    link: https://github.com/luozhaoxiang
+
+rss: atom.xml
+truncate_len: 200
+excerpt: false
+local_search: true
+
+favicon:
+  enabled: false
